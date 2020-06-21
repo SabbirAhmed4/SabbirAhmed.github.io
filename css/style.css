@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #b6050d;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fffd3d;
+    text-decoration:none;
+    cursor:pointer;
+}
+.mt{
+    margin-top: 20px;
+}
+.mt5{
+    margin-top: 50px;
+}
+.pt{
+    padding-top:  20px;
+}
+.pt5{
+    padding-top:  50px;
+}
+ul{
+    list-style-type: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.round{
+    border-radius: 50%;
+    width: 100%;
+}
+.bl{
+    width: 100%;
+}
+
+
+
+
+.headStyle{
+    text-align: center;
+    background: #fff;
+    font-size: 60px;
+}
+fontSize2{
+    font-size: 20px;
+}
+fontSize3{
+    font-size: 30px;
+}
+.fontSize4{
+    font-size: 40px;
+}
+fontSize5{
+    font-size: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+	width:100%
+} 
+ 
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+.banner{
+    background: url("../images/1.jpg");
+    text-align: center;
+}
+.bannerControl{
+    padding: 50px;
+}
+.spaceText{
+    visibility: hidden;
+}
+.personalInfo{
+    background: black;
+    text-align: center;
+}
+.infoHead{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.infoName{
+    color: #a52a2a;
+    font-size: 30px;
+}
+.infoDetails,.infoDetails1{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.hobbies{
+    overflow: hidden;
+
+}
+.hobbyName{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hobbyElem{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.hobbyElem img{
+    width: 80%;
+    height: 200px;
+}
+.hobbyDetails{
+    width: 90%;
+}
+.quotes{
+    margin-top: 2px;
+    background: black;
+    color: white;
+}
+.quotesHeading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.quotePart{
+    font-size: 30px;
+}
+.sName{
+    font-size: 25px;
+    color: aqua;
+}
+.linkLogo{
+    width: 100px;
+}
+.skills{
+    overflow: hidden;
+
+}
+
+
+.topper{
+    text-align: center;
+    margin: 200px;
+}
